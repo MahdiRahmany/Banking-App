@@ -1,3 +1,4 @@
+import { formatAmount } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -29,9 +30,9 @@ const BankCard = ({
           </article>
         </div>
         <div className="bank-card_icon">
-          <Image src="/icon/Paypass.svg" width={20} height={24} alt="pay" />
+          <Image src="/icons/Paypass.svg" width={20} height={24} alt="pay" />
           <Image
-            src="/icon/mastercard.svg"
+            src="/icons/mastercard.svg"
             width={45}
             height={32}
             alt="mastercard"
