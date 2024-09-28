@@ -1,4 +1,4 @@
-import { configuration, PlaidApi, PlaidEnvironments } from "plaid";
+import { Configuration, PlaidApi, PlaidEnvironments } from "plaid";
 
 const configuration = new Configuration({
   basePath: PlaidEnvironments.sanbox,
